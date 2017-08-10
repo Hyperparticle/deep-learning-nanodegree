@@ -138,5 +138,9 @@ config.rst
 /.project
 /.pydevproject
 
+# Project Specific
 *.p
-
+image-classification/image_classification\.index
+image-classification/image_classification\.meta
+image-classification/image_classification\.data-00000-of-00001
+image-classification/checkpoint
