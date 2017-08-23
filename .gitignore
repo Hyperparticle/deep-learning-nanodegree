@@ -141,6 +141,9 @@ config.rst
 # Project Specific
 *.p
 *.zip
+save.data*
+save.index
+save.meta
 
 lessons/embeddings/checkpoints/
 lessons/embeddings/data/
@@ -149,3 +152,4 @@ image-classification/image_classification\.index
 image-classification/image_classification\.meta
 image-classification/image_classification\.data-00000-of-00001
 image-classification/checkpoint
+tv-script-generation/checkpoint
