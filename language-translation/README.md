@@ -1,3 +1,7 @@
 # Language Translation (Project 4)
 
-Project 4 had me translate English sentences into French sentences using a Sequence to Sequence, Recurrent Neural Network model.
+Project 4 had me translate English sentences into French sentences using a Sequence to Sequence (seq2seq), Recurrent Neural Network model. A seq2seq model takes a sequence of inputs (words in this case) as input, and outputs a sequence (words). The difference from a standard LSTM model is that the seq2seq model waits until the input is finished to output the resulting sequence. This allows the model to learn and output variable length sequences, handy for something like translation.
+
+There are two main components, the encoder and the decoder. The encoder takes word embeddings and passes them through some LSTM layers (like a standard LSTM model). The resulting LSTM states are passed to the decoder, which has two modes. During training, it passes the embedded target word sequence to output the most probable next word. During evaluation, the decoder does not have target inputs, so it passes its own output as the input of the next sequence step. By encoding special start and stop characters, the decoder is able to wait until the inputs are finished, and output when the sequence output is finished.
+
+At first I trained it on a small 1-layer network, and got pretty poor results. But then I used a much larger 3-layer, 256-wide LSTM. Using a small learning rate with lots of iterations, the model was able to learn to translate text reasonably well. However, I notice that it has overfit (it's a small dataset, after all), and it sometimes outputs long phrases unrelated to the translation. _C'est la vie_.
