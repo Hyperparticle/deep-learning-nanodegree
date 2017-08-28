@@ -2,11 +2,11 @@
 
 Personal implementation of projects in the Udacity Deep Learning Nanodegree Foundation course (August 2017).
 
-Check out the folders to see the various projects implemented in Python using Jupyter notebooks, along with some commentary in the corresponding README.md files.
+Check out the folders to see the various projects implemented in Python using iPython (Jupyter) notebooks, along with some commentary in the corresponding README.md files.
 
 # Personal Reflection
 
-This is my first time paying for an online course, and I am impressed at how well this Udacity course was organized. The videos were on point and explained concepts at a reasonable pace. What I like about this kind of format is that it allows me to learn at a pace that is comfortable for me (I usually like it _fast_. I completed 50% of the 6 month course in 10 days).
+This is my first time paying for an online course, and I am impressed at how well this Udacity course was organized. The videos were on point and explained concepts at a reasonable pace. What I like about this kind of format is that it allows me to learn at a pace that is comfortable for me (I usually like it _fast_. I completed the six month course in one month).
 
 The only downside to a traditional classroom setting is that feedback is not as dynamic. Yes, we do have a Slack channel that have administrators that supply prompt responses, it still not as efficient in answering questions as personal conversation is. As I am a very independent learner who only occasionally needs to ask clarifying questions, this does not bother me that much, thankfully.
 
